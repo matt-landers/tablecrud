@@ -1,6 +1,6 @@
 {
   "name": "tablecrud",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Node module that creates connections to tables with functions for all, one, insert, update, delete, find, findOne.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
