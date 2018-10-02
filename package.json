@@ -1,18 +1,24 @@
 {
   "name": "tablecrud",
   "version": "0.1.0",
+  "author": "Matt Landers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matt-landers/tablecrud"
+  },
   "description": "Node module that creates connections to tables with functions for all, one, insert, update, delete, find, findOne.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack"
   },
   "keywords": [
     "mysql",
     "table",
     "crud"
   ],
-  "author": "Matt Landers",
+  
   "license": "MIT",
   "devDependencies": {
     "@types/mysql": "^2.15.5",
