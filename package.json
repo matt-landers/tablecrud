@@ -1,18 +1,25 @@
 {
   "name": "tablecrud",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Node module that creates connections to tables with functions for all, one, insert, update, delete, find, findOne.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "mysql",
+    "table",
+    "crud"
+  ],
+  "author": "Matt Landers",
+  "license": "MIT",
   "devDependencies": {
     "@types/mysql": "^2.15.5",
+    "ts-loader": "^5.2.1",
     "typescript": "^3.1.1",
     "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
   }
 }

@@ -6,6 +6,10 @@
     "declarationMap": true,
     "sourceMap": true,
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "lib": [
+      "es2015"
+    ],
+    "outDir": "./dist"
   }
 }
