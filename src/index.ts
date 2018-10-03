@@ -106,7 +106,6 @@ export default class Table<T> {
             let sql = `SELECT * FROM ${this.tableName} WHERE ${Object.keys(row).map((v) => {
                 return `${v} = ?`;
             }).join(` and `)} LIMIT 1;`;
-            console.log(sql);
             this.pool.query(sql,
             this.rowToValueArray(row),
             (err, results) => {
